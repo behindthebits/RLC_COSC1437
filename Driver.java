@@ -8,7 +8,7 @@
  */
 public class Driver{
     /**
-     * This is the entry point fo the application
+     * This is the entry point for the application
      *
      * @param  args A list of command line arguments
      * @return    nothing
@@ -18,7 +18,7 @@ public class Driver{
     {
         // don't forget to comment your code, so others can understand your logic
         try{
-        java.lang.System.out.println(firstMethod(3,2));  
+        java.lang.System.out.println(firstMethod(1,2));  
     }
             catch(Exception e){
                 java.lang.System.out.println(e.getMessage());
@@ -29,9 +29,9 @@ public class Driver{
     /**
      * This method will modify the default string based on the parameters one and two
      * @param one First word to be added to the default string
-     * @param two Second word added to teh default string
+     * @param two Second word added to the default string
      * @return The modified string 
-     * @throws Exception if paramter is not a 1 and paramter two is not a 2 - this is just a sample
+     * @throws Exception if parameter is not a 1 and parameter two is not a 2 - this is just a sample
      */
     private static String firstMethod(int one, int two) throws Exception{
         if(one!=1 || two!=2)
